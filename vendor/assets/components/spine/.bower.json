@@ -1,0 +1,14 @@
+{
+  "name": "spine",
+  "homepage": "https://github.com/spine/spine",
+  "version": "1.2.2",
+  "_release": "1.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.2",
+    "commit": "ccd3c9074f94cf1c45e6836a034cc8f23054d17a"
+  },
+  "_source": "git://github.com/spine/spine.git",
+  "_target": "~1.2.2",
+  "_originalSource": "spine"
+}

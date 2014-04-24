@@ -1,0 +1,10 @@
+{
+  "name": "Watchout",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2",
+    "moment": "~2.5.0",
+    "spine": "~1.2.2",
+    "odometer": "~0.4.5"
+  }
+}

@@ -1,0 +1,42 @@
+.h1of3.w1of4.pa.l
+
+  .h1of2.w1of1
+    .t
+      .tr
+        .tc.vm.tac
+          .row.tcgrey 200
+          .row.fsxxl{:"data-type" => 'number' ,:'data-id' => '200', :'data-threshold' => '0.3', :'data-distance' => '100'} 0
+
+  .h1of2.w1of3.fl
+    .t
+      .tr
+        .tc.vm.tac
+          .row.tcgrey 300
+          .row.fsm{:"data-type" => 'number' ,:'data-id' => '300', :'data-threshold' => '0.1', :'data-distance' => '100'} 0
+
+  .h1of2.w1of3.fl
+    .t
+      .tr
+        .tc.vm.tac
+          .row.tcgrey 400
+          .row.fsm{:"data-type" => 'number' ,:'data-id' => '400', :'data-threshold' => '0.1', :'data-distance' => '100'} 0
+
+  .h1of2.w1of3.fl
+    .t
+      .tr
+        .tc.vm.tac
+          .row.tcgrey 500
+          .row.fsxl{:"data-type" => 'number' ,:'data-id' => '500', :'data-threshold' => '0.1', :'data-distance' => '100'} 0
+
+.h1of3.w1of6.pa.l1of4
+  .h1of3.w1of1.fl
+    .t
+      .tr
+        .tc.vm.tac
+          .row.tcgrey phonebook timing
+          .row.fsm{:"data-type" => 'number' ,:'data-id' => '500', :'data-threshold' => '0.1', :'data-distance' => '100'} 0  
+
+:coffeescript
+
+  new DashboardController
+    el: $ 'body'

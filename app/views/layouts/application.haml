@@ -1,0 +1,13 @@
+!!! 5
+%html
+
+  %head
+    %meta{:charset => 'utf-8'}
+    %title= "Watchout"
+    %link{:href => "/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = render "javascript" # global javascript injection
+    = csrf_meta_tag
+
+  %body= yield
